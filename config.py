@@ -1,8 +1,8 @@
 API_ID = 33264404
-API_HASH = "54d86e3421d1b3a6211ca24947d680b8"
-BOT_TOKEN = "8589678810:AAGJLrkbttXW2Ifj5qFJa86OcYq3v7_DPw8"
+API_HASH = 54d86e3421d1b3a6211ca24947d680b8
+BOT_TOKEN = 8589678810:AAGJLrkbttXW2Ifj5qFJa86OcYq3v7_DPw8
 
-MONGO_URI = "mongodb+srv://rajy32065_db_user:3QyEPRGcujnas6PV@cluster0.gbhwkcc.mongodb.net/jmscchub=Cluster0"
+MONGO_URI = mongodb+srv://rajy32065_db_user:3QyEPRGcujnas6PV@cluster0.gbhwkcc.mongodb.net/jmscchub=Cluster0
 
 MOVIE_CHANNEL = -1003549059750
 FORCE_SUB_CHANNEL = -1003327462598
