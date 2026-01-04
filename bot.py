@@ -5,7 +5,7 @@ from database import db
 from imdb import get_movie
 
 bot = Client(
-    "AutoFilterBot",
+    "Jmscchub",
     api_id=config.API_ID,
     api_hash=config.API_HASH,
     bot_token=config.BOT_TOKEN
@@ -23,7 +23,7 @@ async def force_sub(bot, user_id):
 @bot.on_message(filters.text & filters.private)
 async def search(bot, message):
     if not await force_sub(bot, message.from_user.id):
-        btn = [[InlineKeyboardButton("📢 Join Channel", url="https://t.me/yourchannel")]]
+        btn = [[InlineKeyboardButton("📢 Join Channel", url="https://t.me/yyvybttc")]]
         return await message.reply("❌ Pehle channel join karo", reply_markup=InlineKeyboardMarkup(btn))
 
     query = message.text.lower()
@@ -47,7 +47,7 @@ async def send_page(message, files, imdb_data, page):
         buttons.append([
             InlineKeyboardButton(
                 f"{f['quality']} | {f['size']} MB",
-                url=f"https://t.me/yourchannel/{f['msg_id']}"
+                url=f"https://t.me/bhbyvyub/{f['msg_id']}"
             )
         ])
 
