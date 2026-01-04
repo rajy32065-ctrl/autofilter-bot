@@ -23,7 +23,7 @@ async def force_sub(bot, user_id):
 @bot.on_message(filters.text & filters.private)
 async def search(bot, message):
     if not await force_sub(bot, message.from_user.id):
-        btn = [[InlineKeyboardButton("📢 Join Channel", url="https://t.me/yyvybttc")]]
+        btn = [[InlineKeyboardButton("📢 Join Channel", url=https://t.me/yyvybttc)]]
         return await message.reply("❌ Pehle channel join karo", reply_markup=InlineKeyboardMarkup(btn))
 
     query = message.text.lower()
@@ -47,7 +47,7 @@ async def send_page(message, files, imdb_data, page):
         buttons.append([
             InlineKeyboardButton(
                 f"{f['quality']} | {f['size']} MB",
-                url=f"https://t.me/bhbyvyub/{f['msg_id']}"
+                url=fhttps://t.me/bhbyvyub/{f['msg_id']}"
             )
         ])
 
