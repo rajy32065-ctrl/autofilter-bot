@@ -1,11 +1,11 @@
-API_ID = 123456
-API_HASH = "your_api_hash"
-BOT_TOKEN = "your_bot_token"
+API_ID = 33264404
+API_HASH = "54d86e3421d1b3a6211ca24947d680b8"
+BOT_TOKEN = "8589678810:AAGJLrkbttXW2Ifj5qFJa86OcYq3v7_DPw8"
 
-MONGO_URI = "mongodb+srv://user:pass@cluster.mongodb.net/autofilter"
+MONGO_URI = "mongodb+srv://rajy32065_db_user:3QyEPRGcujnas6PV@cluster0.gbhwkcc.mongodb.net/jmscchub=Cluster0"
 
-MOVIE_CHANNEL = -1001234567890
-FORCE_SUB_CHANNEL = -1009876543210
+MOVIE_CHANNEL = -1003549059750
+FORCE_SUB_CHANNEL = -1003327462598
 
-ADMINS = [123456789]
+ADMINS = [5488644670]
 RESULTS_PER_PAGE = 5
